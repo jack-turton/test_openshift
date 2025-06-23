@@ -18,4 +18,4 @@ RUN \
   fi
 
 # Specify the command to run on container start
-CMD [ "marimo", "edit","--headless","--port","8081"]
+CMD [ "marimo", "edit","--headless","-p","8081","--host","0.0.0.0","--no-token"]
